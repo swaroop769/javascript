@@ -1,0 +1,12 @@
+console.log(document)
+let z = document.getElementsByTagName('h1')
+console.log(z[0])
+let y = document.getElementsByClassName('bujji')
+console.log(y[0])
+let x = document.getElementById("chitti")
+console.log(x)
+
+let a = document.querySelector(".bujji")
+console.log(a)
+let b = document.querySelectorAll(".bujji")
+console.log(b[0])
